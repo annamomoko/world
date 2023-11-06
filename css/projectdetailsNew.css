@@ -1,0 +1,222 @@
+body{
+    background-color: #000000;
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    height:100%;
+    margin:0;
+}
+.projectMainImage{
+    width:100%;
+    height:573px;
+    background-color: rgb(179, 51, 51);
+    /*opacity: 0.2;*/
+}
+
+
+
+.beginPara{
+    font-weight: 500;
+
+}
+.sectionRow{
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    /*margin-top: 52px;*/
+    /*height: auto;*/
+    overflow:hidden;
+}
+
+.sectionBreak{
+    height:36px;
+}
+
+.rowTitle{
+    width: 15%;
+    display: inline-block;
+    position: relative;
+    float:left;
+    /*left:0;*/
+    font-size: 14px;
+    line-height: 18px;
+    /* background-color: lavender; */
+}
+
+
+
+.rowContent{
+    width: 80%;
+    display: inline-block;
+    position: relative;
+    float:right;
+    /*right:0;*/
+    font-size: 14px;
+    line-height: 18px;
+    /* background-color: darkgray; */
+}
+
+.projectName{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 28px;
+    /*background-color: skyblue;*/
+}
+
+.projectIdea{
+    font-size: 18px;
+    line-height: 56px;
+    height: 56px;
+    /*background-color: violet;*/
+}
+.ideabrief {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.conceptIllustration{
+    /*background-color:white;*/
+    /*opacity: 0.2;*/
+    width: 100%;
+    min-height: 120px;
+}
+
+/*.chapter{*/
+    /*padding: 20px;*/
+    /*background-color: rgba(255, 255, 255, 0.16);*/
+/*}*/
+
+.department{
+    opacity: 0.6;
+    font-size: 12px;
+}
+
+.spacetime{
+    opacity: 0.4;
+    font-size: 12px;
+}
+
+/*#thank{*/
+    /*width:150px;*/
+    /*height:150px;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+/*}*/
+
+.imagelink:hover{
+    opacity: 0.6;
+}
+
+.imagelink{
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+#lightingimg{
+    /*background-color: #5B5D5E;*/
+    background-color: #000000;
+}
+
+.imageCaption{
+
+}
+
+b{
+    font-weight: bold;
+}
+
+
+/*New added_intersection*/
+.subTitle{
+    text-align:center;
+    font-size: 12px;
+    line-height:100%;
+}
+
+.mainSubtitle{
+    font-size: 28px;
+}
+
+
+.rowLeft{
+    width:33%;
+    display: inline-block;
+    position: relative;
+    float:left;
+    /*left:0;*/
+    font-size: 14px;
+    padding-left: 6%;
+    padding-right:6%;
+    /* background-color: rgb(210, 164, 46); */
+}
+
+.rowMiddle{
+    width:33%;
+    display: inline-block;
+    position: relative;
+    float:left;
+    /*left:0;*/
+    font-size: 14px;
+    padding-left: 6%;
+    padding-right:6%;
+    /* background-color: rgb(46, 46, 210); */
+}
+
+
+.rowRight{
+    width:33%;
+    display: inline-block;
+    position: relative;
+    float:left;
+    /*left:0;*/
+    font-size: 14px;
+    padding-left: 6%;
+    padding-right:6%;
+
+    /* background-color: rgb(210, 46, 136); */
+}
+
+.memberphoto{
+    height:220px;
+    width:100%;
+    background-color: rgb(51, 190, 255);
+}
+.memberName{
+    font-size:16px;
+}
+
+.elementsImage{
+    width:100%;
+    height:360px;
+    background-color: rgb(25, 25, 25);
+    /*opacity: 0.2;*/
+}
+
+.contactImage{
+    width:100%;
+    height:140px;
+    background-color: blueviolet;
+}
+
+.abouttext{
+    font-size:14px;
+}
+
