@@ -44,13 +44,30 @@ body{
     /*background-color: firebrick;*/
 
 }
+
+
 .header{
     display: inline-block;
     position:relative;
     /*background-color: darkblue;*/
     font-size: 20px;
-    width:100%;
+    /* width:100%; */
+    /* width: 100vw; */
     line-height: 72px;
+}
+
+
+
+@media screen and (min-width: 800px) {
+    .header {
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .header {
+       width: 100vw;
+    }
 }
 
 .namearea{
@@ -66,13 +83,13 @@ body{
 .menu{
     display: inline-block;
     font-size: 16px;
-    /*background-color: #0B85D0;*/
-    right: 0px;
+    /* background-color: #0B85D0; */
+    right:0;
     position: absolute;
 }
 .menu div{
     display: inline-block;
-    /*background-color: indianred;*/
+    /* background-color: indianred; */
     padding-left: 20px;
 
 
