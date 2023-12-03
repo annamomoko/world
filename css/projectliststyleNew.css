@@ -339,3 +339,7 @@ a:active {
     letter-spacing: 0.2em;
 }
 
+.imageexplain{
+    text-align: center;
+    font-size: smaller;
+}
